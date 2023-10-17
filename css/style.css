@@ -178,7 +178,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section || Section 1 */
 .hero-container {
-  /* padding: 20rem 4rem; */
+  padding: 0 4rem;
   background-color: var(--darker-blue); 
   display: flex;
   height: 650px;
@@ -278,7 +278,7 @@ p, h1, h2, h3, h4, h5, h6 {
     position:absolute;
     top: 1.5rem;
     left: 2rem;
-    width: 2rem;
+    width: 11rem;
     background-color: transparent;
     background-image: url('/Images/shared/icon-hamburger.svg');
     background-repeat: no-repeat;
@@ -290,6 +290,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle[aria-expanded='true'] {
     background-image: url('/Images/shared/icon-close.svg');
 }
+
 
 body {
   overflow-x: hidden;
