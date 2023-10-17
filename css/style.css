@@ -237,6 +237,14 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .solutions-container img {
   width:100%;
+  background-size: cover
+}
+
+.solutions-container .image-div {
+  background-image: url('/Images/solutions.svg');
+  height: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
 }
 
 
@@ -244,6 +252,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* RESPONSIVE DESIGN CSS*/ 
 
 @media (max-width:1023px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
 /* Reveal Hiiden links*/
   .hidden {
     display: block;
