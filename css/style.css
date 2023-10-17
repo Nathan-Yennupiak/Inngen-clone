@@ -206,7 +206,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hero Image || Hero Section */
-
 .hero-image {
   display: flex;
   justify-content: center;
@@ -217,6 +216,22 @@ p, h1, h2, h3, h4, h5, h6 {
 .hero-image img {
   width: 700px;
   object-fit: contain;
+}
+
+/* --Solutions Section || Section 1--*/
+.solutions-container {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 650px;
+  align-items: center;
+}
+.solutions-container h1 {
+  color: var(--dark-blue);
+}
+.solutions-container p{
+  color: #6d7d97;
 }
 
 
