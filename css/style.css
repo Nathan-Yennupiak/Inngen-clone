@@ -108,6 +108,7 @@ p, h1, h2, h3, h4, h5, h6 {
   width: auto;
   height: 2rem;
   line-height: 5rem;
+  cursor: pointer;
 }
 
 /* Navigation | ul*/
@@ -266,13 +267,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .services-text h1 {
   font-size: 24px;
+  line-height: 32px;
   font-weight: var(--fw-semi-bold);
   color: var(--darker-blue);
 }
 
 .services-text p {
   color: #6d7d97;
-  line-height: 28px;
+  line-height: 24px;
   margin-top: 30px;
 }
 
