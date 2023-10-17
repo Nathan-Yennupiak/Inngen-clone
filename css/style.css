@@ -220,18 +220,23 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* --Solutions Section || Section 1--*/
 .solutions-container {
-  padding: 4rem;
+  padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
   height: 650px;
   align-items: center;
+  text-align: center;
 }
 .solutions-container h1 {
   color: var(--dark-blue);
 }
 .solutions-container p{
   color: #6d7d97;
+}
+
+.solutions-container img {
+  width:100%;
 }
 
 
