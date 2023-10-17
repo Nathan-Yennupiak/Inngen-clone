@@ -385,3 +385,16 @@ body {
 }
 
 }
+
+@media (max-width: 639px) {
+  .services-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .services-image{
+    width: 100%;
+  }
+  .services-text {
+    width: 100%;
+  }
+}
