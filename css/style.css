@@ -238,9 +238,9 @@ p, h1, h2, h3, h4, h5, h6 {
     display: none;
     inset: 0 0 50% 0%; /* Position navigation to the right side */
     flex-direction: column; /* Stack navigation items vertically */
-    padding: 0 2rem; /* Adjust padding for smaller screens */
+    padding: 1rem 2rem; /* Adjust padding for smaller screens */
     background-color: #fff;
-    transform: translateY(0%);
+    transform: translateX(0%);
     transition: transform 350ms ease-in;
     /* border-bottom: 1px solid ; */
   }
@@ -249,6 +249,7 @@ p, h1, h2, h3, h4, h5, h6 {
     transform: translateY(20%);
     display: flex;
     gap: 20px;
+    /* padding-bottom: 0px; */
 }
 
   .navigation li {
