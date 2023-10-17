@@ -389,6 +389,7 @@ body {
 @media (max-width: 639px) {
   .services-container{
     display: flex;
+    padding: 0 2rem;
     flex-direction: column;
   }
   .services-image{
