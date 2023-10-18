@@ -698,6 +698,11 @@ body {
     height: 100%;
   } */
 
+ .impact-container .green-item {
+  text-align: left;
+  align-items: start;
+ }
+
   .global-container {
     padding: 2rem;
     width: 100%;
