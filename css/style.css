@@ -708,6 +708,16 @@ body {
     line-height: 32px;
   }
 
+  .empty-container {
+    min-height: 50px;
+  }
+
+  .form-container {
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
 input[type="text"],
 input[type="email"],
 textarea {
