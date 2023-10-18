@@ -352,7 +352,24 @@ p, h1, h2, h3, h4, h5, h6 {
    .marquee-content {
     padding: 2rem;
     display: flex;
-    animation: scrolling 30s linear infinite;
+    /* animation: scrolling 30s linear infinite; */
+  }
+  #marquee-1 {
+    animation: scrollingLeft 30s linear infinite;
+  }
+
+  #marquee-2 {
+    animation: scrollingRight 30s linear infinite;
+  }
+
+  @keyframes scrollingLeft {
+    10% { transform: translateX(0); }
+    100% { transform: translatex(100%); }
+  }
+
+  @keyframes scrollingRight {
+    10% { transform: translateX(20); }
+    100% { transform: translatex(-100%); }
   }
   
   
@@ -366,13 +383,13 @@ p, h1, h2, h3, h4, h5, h6 {
   .marquee-item img {
     display: block;
     width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
   
-  @keyframes scrolling {
+  /* @keyframes scrolling {
     10% { transform: translateX(20); }
     100% { transform: translatex(-144vw); }
-  }
+  } */
 
 .global-container {
   padding: 2rem;
