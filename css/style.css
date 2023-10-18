@@ -221,7 +221,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* --Solutions Section || Section 1--*/
 .solutions-container {
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -239,6 +239,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .solutions-container img {
   width:100%;
+  height: auto;
   background-size: cover
 }
 
@@ -325,8 +326,181 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #6d7d97;
 }
 
+/* about Section*/
+.about-container{
+  padding: 2rem 4rem;
+  border-top: 1px solid var(--light-green);
+}
+.about-container h1{
+  color: var(--light-green);
+  padding-right: 120px;
+}
 
 
+/* Marquee Section*/
+/* .marquee {
+    overflow: hidden;
+  } */
+
+  
+  .marquee-content {
+    padding: 2rem;
+    display: flex;
+    animation: scrolling 30s linear infinite;
+  }
+
+   .marquee-content {
+    padding: 2rem;
+    display: flex;
+    animation: scrolling 30s linear infinite;
+  }
+  
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+    flex: 0 0 15vw;
+    margin: 0 0;
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  @keyframes scrolling {
+    10% { transform: translateX(20); }
+    100% { transform: translatex(-144vw); }
+  }
+
+.global-container {
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.global h1 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: var(--fw-bold);
+  color: var(--dark-blue);
+}
+
+.global p {
+  margin-top: 10px;
+  line-height: 24px;
+  color: #6d7d97;
+}
+
+.green-container {
+  background-color: var(--light-green);
+}
+.green-container h1{
+  color: #fff;
+  line-height: 24px;
+  font-weight: var(--fw-medium);
+}
+
+.green-container p {
+  padding-top: 10px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.empty-container {
+  min-height: 200px;
+}
+
+.form-container {
+  padding: 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+/* Conatact Form Section*/
+.form-container{
+  background-color: #001c4b;
+}
+.form-container h1, p{
+  color: #fff;
+}
+.form-container p{
+  margin-top: 20px;
+}
+form {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 20px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  text-align: left;
+  color: #fff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: none;
+  /* You can also specify other styles you want on focus here */
+}
+textarea {
+  resize: vertical;
+  height: 250px;
+}
+
+.error {
+  display: none;
+  text-align: left;
+  color: #f87171; /* Red color for the error text */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Add some space between the input and the error message */
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: none; /* Remove border on focus */
+  /* You can specify other styles you want on focus here */
+}
+
+button {
+  background-color: var(--light-green);
+  color: #fff;
+  width: 100%;
+  /* padding: 20px 40px; */
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4ab8a9;
+}
+
+.footer-container {
+  justify-content: start;
+  background-color: #00163c;
+  padding: 2rem;
+  /* background-color: var(--darker-blue); */
+}
 
 
 /* RESPONSIVE DESIGN CSS*/ 
@@ -490,4 +664,41 @@ body {
     height: 100%;
     object-fit: contain;
   }
+  .about-container h1 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 300px;
+  }
+  .about-container p {
+    line-height: 1.5;
+  }
+  .about-container{
+    padding-top: 2rem;
+    flex-direction: column-reverse;
+  }
+  /* .marquee-content img {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .global-container {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .global-container h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
 }
