@@ -305,7 +305,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Impact Section*/
 .impact-container {
-  padding: 5rem 4rem;
+  padding: 2rem 4rem 4rem 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
