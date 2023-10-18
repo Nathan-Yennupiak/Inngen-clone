@@ -255,7 +255,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ----services-container---*/
 .services-container {
-  padding: 0 4rem; 
+  padding: 0 4rem 5rem 4rem; 
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -291,6 +291,39 @@ p, h1, h2, h3, h4, h5, h6 {
   object-fit: contain;
 }
 
+.africa-container {
+  padding: 5rem 4rem;
+  background-color: var(--darker-blue);
+}
+
+.africa-container h1{
+  color: #fff;
+}
+.africa-container p{
+  color: #fff;
+}
+
+/* Impact Section*/
+.impact-container {
+  padding: 5rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.grid-item img{
+  max-width: 20%;
+  max-height: 20%;
+}
+.grid-item h1 {
+  font-size: 16px;
+  color: var(--dark-blue);
+}
+.grid-item p {
+  color: #6d7d97;
+}
 
 
 
@@ -386,12 +419,27 @@ body {
   width: 100%;
 }
 
+.impact-container {
+  padding: 5rem 2rem;
+  display: grid;
+  gap: 30;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+.impact-container img {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+
 }
 
 @media (max-width: 639px) {
   .services-container{
     display: flex;
-    padding: 0 2rem;
+    padding: 0 2rem 4rem 2rem;
     flex-direction: column;
   }
   .services-image{
@@ -399,5 +447,8 @@ body {
   }
   .services-text {
     width: 100%;
+  }
+  .africa-container {
+    padding: 5rem 2rem;
   }
 }
