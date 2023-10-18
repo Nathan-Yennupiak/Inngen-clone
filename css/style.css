@@ -437,6 +437,10 @@ body {
 }
 
 @media (max-width: 639px) {
+  .hero-container h1 {
+    font-size: 36px;
+    line-height: 43px;
+  }
   .services-container{
     display: flex;
     padding: 0 2rem 4rem 2rem;
